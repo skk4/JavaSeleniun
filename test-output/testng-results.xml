@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12548" started-at="2017-02-21T09:37:33Z" finished-at="2017-02-21T09:37:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12548" started-at="2017-02-21T09:37:33Z" finished-at="2017-02-21T09:37:46Z">
+      <class name="com.testng.page.test.BaiduMainBaseDataProviderTest">
+        <test-method status="PASS" signature="setUpTestBase(org.testng.ITestContext)[pri:0, instance:com.testng.page.test.BaiduMainBaseDataProviderTest@fd02e5]" name="setUpTestBase" is-config="true" duration-ms="3554" started-at="2017-02-21T17:37:33Z" finished-at="2017-02-21T17:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@17553a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestBase -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:com.testng.page.test.BaiduMainBaseDataProviderTest@fd02e5]" name="initPage" is-config="true" duration-ms="3255" started-at="2017-02-21T17:37:37Z" finished-at="2017-02-21T17:37:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="testSearch(java.lang.String)[pri:0, instance:com.testng.page.test.BaiduMainBaseDataProviderTest@fd02e5]" name="testSearch" duration-ms="1927" started-at="2017-02-21T17:37:40Z" data-provider="searchKey1" finished-at="2017-02-21T17:37:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:com.testng.page.test.BaiduMainBaseDataProviderTest@fd02e5]" name="initPage" is-config="true" duration-ms="867" started-at="2017-02-21T17:37:42Z" finished-at="2017-02-21T17:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="testSearch(java.lang.String)[pri:0, instance:com.testng.page.test.BaiduMainBaseDataProviderTest@fd02e5]" name="testSearch" duration-ms="1407" started-at="2017-02-21T17:37:43Z" data-provider="searchKey1" finished-at="2017-02-21T17:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Æ»¹û]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.testng.page.test.BaiduMainBaseDataProviderTest@fd02e5]" name="quitDriver" is-config="true" duration-ms="1504" started-at="2017-02-21T17:37:44Z" finished-at="2017-02-21T17:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.testng.page.test.BaiduMainBaseDataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
