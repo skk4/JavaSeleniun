@@ -25,11 +25,21 @@ public class OnemoviTest {
 	  Thread.sleep(3000);
 	  driver.findElement(By.linkText("基础管理")).click();
 	  Thread.sleep(3000);
-	  driver.findElement(By.xpath("//*[@id='member_department_list']/div/div[1]/span/span[2]/a[1][@class='doAdd']")).click();
+	  //driver.findElement(By.xpath("//*[@id='member_department_list']/div/div[2]/span/span[2]/a[1][@class='doAdd']")).click();
+	 // List<WebElement> wes=driver.findElements(By.xpath("//*[@id='member_department_list']/div/div[@class='group-name']/@title"));
+	  List<WebElement> wes=driver.findElements(By.xpath("//*[@id='member_department_list']/div/div/@title"));
+	  WebElement target=null;
+	  for(WebElement ws:wes){
+		  if(ws.getText().trim().equalsIgnoreCase("行政部")){
+			  target=ws;
+			  break;
+		  }
+	  }
 	  Thread.sleep(3000);
-	  driver.findElement(By.id("dept_name")).sendKeys("222");
-	  Thread.sleep(3000);
-	  driver.findElement(By.id("subBtn")).click();
+	  
+	  target.findElement(By.xpath("/span[2]/a[1][@class='doAdd']")).click();
+	 // driver.findElement(By.id("dept_name")).sendKeys("222");
+	  //driver.findElement(By.id("subBtn")).click();
 	  Thread.sleep(3000);
   }
   
